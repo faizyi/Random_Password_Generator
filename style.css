@@ -1,0 +1,81 @@
+@font-face {
+    font-family: rpg;
+    src: url(./Fonts/Kanit-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rpg;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.main{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.heading{
+    line-height: 20px;
+}
+.heading span{
+    color: blue;
+}
+hr{
+    border-color: black;
+    margin-top: 2px;
+}
+.main .main_text{
+    margin-top: 10px;
+}
+.main .input_box{
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.input_box input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+input::placeholder{
+    font-size: 14px;
+}
+i{
+    cursor: pointer;
+}
+.pl{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.pl input{
+    width: 30px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.main .btn{
+    margin-top: 5px;
+}
+.btn button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
